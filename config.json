@@ -1,14 +1,14 @@
 {
   "bot": {
-    "token": "YOUR_BOT_TOKEN",
-    "username": "YourBotUsername",
+    "token": "8034233581:AAEolVly2rR4ZeGBXlA_UNlD38L9WyJDD9w",
+    "username": "likhon_premium_bot",
     "defaultPrefix": "/",
     "language": "en",
     "timezone": "Asia/Dhaka"
   },
   "admins": [
     {
-      "id": 123456789,
+      "id": 7933110913,
       "name": "AdminName",
       "role": "superadmin"
     }
