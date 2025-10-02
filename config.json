@@ -1,1 +1,39 @@
-
+{
+  "bot": {
+    "token": "YOUR_BOT_TOKEN",
+    "username": "YourBotUsername",
+    "defaultPrefix": "/",
+    "language": "en",
+    "timezone": "Asia/Dhaka"
+  },
+  "admins": [
+    {
+      "id": 123456789,
+      "name": "AdminName",
+      "role": "superadmin"
+    }
+  ],
+  "database": {
+    "enabled": false,
+    "type": "mongodb",
+    "uri": "mongodb://localhost:27017/my_bot"
+  },
+  "commands": {
+    "autoLoad": true,
+    "folder": "./src/commands"
+  },
+  "logging": {
+    "enabled": true,
+    "level": "info", 
+    "file": "./logs/bot.log"
+  },
+  "features": {
+    "welcomeMessage": true,
+    "antiSpam": false,
+    "customReplies": true
+  },
+  "apiKeys": {
+    "openai": "YOUR_OPENAI_KEY",
+    "someOtherAPI": "YOUR_API_KEY"
+  }
+}
